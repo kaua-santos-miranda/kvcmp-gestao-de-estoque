@@ -1,0 +1,24 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Variáveis de ambiente e informações sensíveis
+.env
+.env.*
+!.env.example
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+
+# Configurações do VS Code
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
